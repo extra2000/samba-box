@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/extra2000/samba-box/compare/v1.0.0...v2.0.0) (2021-04-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* **samba-formula, pillar:** Variable name in pillar file has changed.
+
+### Code Refactoring
+
+* **samba-formula, pillar:** Rename `requests` port to `netbios` port and `node_communications` port to `cifs` port ([528882a](https://github.com/extra2000/samba-box/commit/528882aace68d869f2a1c08d168a3857eb98f0bd))
+
 ## 1.0.0 (2021-04-13)
 
 
